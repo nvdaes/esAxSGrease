@@ -38,3 +38,13 @@ Este script mejora la accesibilidad del [Diario Público](http://publico.es).
 Hace lo siguiente:
 
 - Proporciona etiquetas a algunos elementos para compartir en redes sociales, o acceder a comentarios sobre los artículos visitados.
+
+### eBiblioteca Accessibility Fixes
+[Descargar eBiblioteca Accessibility Fixes](https://github.com/nvdaes/esAxSGrease/raw/master/eBibliotecaA11yFixes.user.js)
+
+Este script mejora la accesibilidad de [ebiblioteca.org](http://publico.es).
+
+Hace lo siguiente:
+
+- Elimina los enlaces de descarga inaccesibles.
+- Sustituye el gráfico de "descarga especial para invidentes" por un enlace de descarga convencional, accesible desde la lista de elementos de NVDA (NVDA+f7).
