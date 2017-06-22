@@ -42,7 +42,7 @@ Hace lo siguiente:
 ### eBiblioteca Accessibility Fixes
 [Descargar eBiblioteca Accessibility Fixes](https://github.com/nvdaes/esAxSGrease/raw/master/eBibliotecaA11yFixes.user.js)
 
-Este script mejora la accesibilidad de [ebiblioteca.org](http://publico.es).
+Este script mejora la accesibilidad de [ebiblioteca.org](http://ebiblioteca.org).
 
 Hace lo siguiente:
 
