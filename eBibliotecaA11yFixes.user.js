@@ -1,4 +1,4 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name           eBiblioteca Accessibility Fixes
 // @namespace      http://nvdaes.github.io/grease
 // @description    Improves the accessibility of ebiblioteca.org
@@ -6,19 +6,26 @@
 // @author         Noelia Ruiz Martínez <nrm1977@gmail.com>
 // @copyright 2017 Noelia Ruiz Martínez
 // @license GNU General Public License version 2.0
-// @version        2017.1
+// @version        2017.2
 // @grant       none
 // @include http://ebiblioteca.org/*
 // ==/UserScript==
 
 function tweak() {
+	document.documentElement.setAttribute("lang", "es");
+	for (t of document.querySelectorAll("table")) {
+		t.setAttribute("role", "presentation");
+	}
+	var title = document.querySelector(".titulo");
+	title.setAttribute("role", "heading");
+	title.setAttribute("aria-level", 1);
 	var img = document.querySelector('img[title="Descarga especial para invidentes"]');
 	var onclick = img.getAttribute("onclick");
 	var downloadPage = onclick.match("http.*(?=\")");
 	var downloadLink = document.createElement("A");
 	downloadLink.setAttribute("href", downloadPage);
 	downloadLink.innerHTML = "<img src='gif/descargar.png' alt='descargar' title='bajafiles.com' />";
-	downloadLink.style = "cursor:pointer";
+	downloadLink.style.cursor = "pointer";
 	for (inaccessibleImg of document.querySelectorAll('img[alt="descargar"]')) {
 		inaccessibleImg.parentNode.remove();
 	}

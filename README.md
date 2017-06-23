@@ -46,5 +46,8 @@ Este script mejora la accesibilidad de [ebiblioteca.org](http://ebiblioteca.org)
 
 Hace lo siguiente:
 
+- Establece el español como idioma predeterminado, para evitar la lectura incorrecta con lectores de pantalla.
+- Marca las tablas como elementos de diseño y no de datos, de acuerdo con su uso real en el sitio web.
+- En las páginas específicas para cada libro, marca el título de la obra como encabezado de nivel 1.
 - Elimina los enlaces de descarga inaccesibles.
 - Sustituye el gráfico de "descarga especial para invidentes" por un enlace de descarga convencional, accesible desde la lista de elementos de NVDA (NVDA+f7).
