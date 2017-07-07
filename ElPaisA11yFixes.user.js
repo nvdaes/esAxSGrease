@@ -6,9 +6,9 @@
 // @author         Noelia Ruiz Martínez <nrm1977@gmail.com>
 // @copyright 2017 Noelia Ruiz Martínez
 // @license GNU General Public License version 2.0
-// @version        2017.1.1
+// @version        2017.1.2
 // @grant       none
-// @include http://*elpais.com/*
+// @include /^https?://.*elpais\.com/.*$/
 // ==/UserScript==
 
 function labelControls() {
