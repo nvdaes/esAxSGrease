@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
@@ -37,11 +37,24 @@
 </ul>
 <h3 id="ebiblioteca-accessibility-fixes">eBiblioteca Accessibility Fixes</h3>
 <p><a href="https://github.com/nvdaes/esAxSGrease/raw/master/eBibliotecaA11yFixes.user.js">Descargar eBiblioteca Accessibility Fixes</a></p>
-<p>Este script mejora la accesibilidad de <a href="http://publico.es">ebiblioteca.org</a>.</p>
+<p>Este script mejora la accesibilidad de <a href="http://ebiblioteca.org">ebiblioteca.org</a>.</p>
 <p>Hace lo siguiente:</p>
 <ul>
+<li>Establece el español como idioma predeterminado, para evitar la lectura incorrecta con lectores de pantalla.</li>
+<li>Marca las tablas como elementos de diseño y no de datos, de acuerdo con su uso real en el sitio web.</li>
+<li>En las páginas específicas para cada libro, marca el título de la obra como encabezado de nivel 1.</li>
 <li>Elimina los enlaces de descarga inaccesibles.</li>
 <li>Sustituye el gráfico de &quot;descarga especial para invidentes&quot; por un enlace de descarga convencional, accesible desde la lista de elementos de NVDA (NVDA+f7).</li>
 </ul>
+<h3 id="cadenaser-accessibility-fixes">CadenaSER Accessibility Fixes</h3>
+<p><a href="https://github.com/nvdaes/esAxSGrease/raw/master/CadenaSerA11yFixes.user.js">Descargar CadenaSER Accessibility Fixes</a></p>
+<p>Este script mejora la accesibilidad de las páginas con archivos de audio de [Cadena SER][http://cadenaser.com).</p>
+<p>Hace lo siguiente:</p>
+<ul>
+<li>Convierte en un enlace identificado como &quot;Audio accesible&quot; el elemento &quot;Escuchar ahora&quot;: Activando el enlace se podrá reproducir el audio desde el navegador; eligiendo guardar como con el menú contextual (tecla Aplicaciones) se podrá descargar el correspondiente mp3.).</li>
+<li>Mejora la accesibilidad de ciertos enlaces (como algunos relativos a redes sociales) etiquetándolos mediante su título.</li>
+<li>Proporciona la etiqueta &quot;Opciones de usuario&quot; para el botón que muestra y oculta las opciones de registro e inicio de sesión. También se indica si se ha pulsado el botón o si se encuentra en su estado inicial.</li>
+</ul>
+<p>Nota: Para que estos cambios tengan efecto, es necesario abrir las páginas en una ventana o pestaña nueva, o recargarlas con control+r.</p>
 </body>
 </html>
