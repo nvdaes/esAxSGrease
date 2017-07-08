@@ -51,3 +51,16 @@ Hace lo siguiente:
 - En las páginas específicas para cada libro, marca el título de la obra como encabezado de nivel 1.
 - Elimina los enlaces de descarga inaccesibles.
 - Sustituye el gráfico de "descarga especial para invidentes" por un enlace de descarga convencional, accesible desde la lista de elementos de NVDA (NVDA+f7).
+
+### CadenaSer Accessibility Fixes
+[Descargar CadenaSer Accessibility Fixes](https://github.com/nvdaes/esAxSGrease/raw/master/CadenaSerA11yFixes.user.js)
+
+Este script mejora la accesibilidad de las páginas con archivos de audio de [Cadena Ser][http://cadenaser.com).
+
+Hace lo siguiente:
+
+- Convierte en un enlace identificado como "Audio accesible" el elemento "Escuchar ahora": Activando el enlace se podrá reproducir el audio desde el navegador; eligiendo guardar como con el menú contextual (tecla Aplicaciones) se podrá descargar el correspondiente mp3.).
+- Mejora la accesibilidad de ciertos enlaces (como algunos relativos a redes sociales) etiquetándolos mediante su título.
+- Proporciona la etiqueta "Opciones de usuario" para el botón que muestra y oculta las opciones de registro e inicio de sesión. También se indica si se ha pulsado el botón o si se encuentra en su estado inicial.
+
+Nota: Para que estos cambios tengan efecto, es necesario abrir las páginas en una ventana o pestaña nueva, o recargarlas con control+r.
