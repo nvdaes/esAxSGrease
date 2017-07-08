@@ -55,7 +55,7 @@ Hace lo siguiente:
 ### CadenaSER Accessibility Fixes
 [Descargar CadenaSER Accessibility Fixes](https://github.com/nvdaes/esAxSGrease/raw/master/CadenaSerA11yFixes.user.js)
 
-Este script mejora la accesibilidad de las páginas con archivos de audio de [Cadena SER][http://cadenaser.com).
+Este script mejora la accesibilidad de las páginas con archivos de audio de [Cadena SER](http://cadenaser.com).
 
 Hace lo siguiente:
 
