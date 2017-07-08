@@ -52,10 +52,10 @@ Hace lo siguiente:
 - Elimina los enlaces de descarga inaccesibles.
 - Sustituye el gráfico de "descarga especial para invidentes" por un enlace de descarga convencional, accesible desde la lista de elementos de NVDA (NVDA+f7).
 
-### CadenaSer Accessibility Fixes
-[Descargar CadenaSer Accessibility Fixes](https://github.com/nvdaes/esAxSGrease/raw/master/CadenaSerA11yFixes.user.js)
+### CadenaSER Accessibility Fixes
+[Descargar CadenaSER Accessibility Fixes](https://github.com/nvdaes/esAxSGrease/raw/master/CadenaSerA11yFixes.user.js)
 
-Este script mejora la accesibilidad de las páginas con archivos de audio de [Cadena Ser][http://cadenaser.com).
+Este script mejora la accesibilidad de las páginas con archivos de audio de [Cadena SER][http://cadenaser.com).
 
 Hace lo siguiente:
 

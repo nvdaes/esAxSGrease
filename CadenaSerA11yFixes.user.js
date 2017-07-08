@@ -1,8 +1,8 @@
 // ==UserScript==getAudio()
-// @name        CadenaSer Accessibility Fixes
+// @name        CadenaSER Accessibility Fixes
 // @namespace   http://nvdaes.github.io/grease
-// @description Improves the accessibility of the webpages with audio files of Cadena Ser
-// @description:es Mejora la accesibilidad de las páginas con archivos de audio de Cadena Ser
+// @description Improves the accessibility of the webpages with audio files of Cadena SER
+// @description:es Mejora la accesibilidad de las páginas con archivos de audio de Cadena SER
 // @include     http://play.cadenaser.com/audio/*
 // @author         Noelia Ruiz Martínez <nrm1977@gmail.com>
 // @copyright 2017 Noelia Ruiz Martínez
