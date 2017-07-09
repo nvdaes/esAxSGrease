@@ -1,4 +1,4 @@
-// ==UserScript==getAudio()
+﻿// ==UserScript==getAudio()
 // @name        CadenaSER Accessibility Fixes
 // @namespace   http://nvdaes.github.io/grease
 // @description Improves the accessibility of the webpages with audio files of Cadena SER
@@ -7,7 +7,7 @@
 // @author         Noelia Ruiz Martínez <nrm1977@gmail.com>
 // @copyright 2017 Noelia Ruiz Martínez
 // @license GNU General Public License version 2.0
-// @version     2017.1
+// @version     2017.2
 // @grant       GM_log
 // ==/UserScript==
 
@@ -23,9 +23,11 @@ function init() {
 	for (link of document.querySelectorAll("a")) {
 		link.setAttribute("aria-label", link.title);
 	}
-	var audioLink = document.querySelector("a.play");
-	audioLink.setAttribute("href", getAudio());
-	audioLink.setAttribute("aria-label", "Audio accesible");
+	div = document.createElement("DIV");
+	divHTML = "<p><audio controls <source src='"+getAudio()+"' type='audio/mpeg'/>>No admitido en tu navegador</audio></p><p><a href='"+getAudio()+"'>Descargar audio</a></p>";
+	div.innerHTML = divHTML;
+	div.setAttribute("role", "complementary");
+	document.body.appendChild(div);
 	var homeLink = document.querySelector('a[href="http://cadenaser.com"]');
 	homeLink.setAttribute("aria-label", "Cadenaser.com");
 	var button = document.querySelector("button");

@@ -59,7 +59,7 @@ Este script mejora la accesibilidad de las páginas con archivos de audio de [Ca
 
 Hace lo siguiente:
 
-- Convierte en un enlace identificado como "Audio accesible" el elemento "Escuchar ahora": Activando el enlace se podrá reproducir el audio desde el navegador; eligiendo guardar como con el menú contextual (tecla Aplicaciones) se podrá descargar el correspondiente mp3.).
+- Cuando sea posible identificar el archivo de audio correspondiente, añade un reproductor HTML y el enlace al archivo mp3, en una zona complementaria al final de la página.
 - Mejora la accesibilidad de ciertos enlaces (como algunos relativos a redes sociales) etiquetándolos mediante su título.
 - Proporciona la etiqueta "Opciones de usuario" para el botón que muestra y oculta las opciones de registro e inicio de sesión. También se indica si se ha pulsado el botón o si se encuentra en su estado inicial.
 
