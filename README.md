@@ -64,3 +64,12 @@ Hace lo siguiente:
 - Proporciona la etiqueta "Opciones de usuario" para el botón que muestra y oculta las opciones de registro e inicio de sesión. También se indica si se ha pulsado el botón o si se encuentra en su estado inicial.
 
 Nota: Para que estos cambios tengan efecto, es necesario abrir las páginas en una ventana o pestaña nueva, o recargarlas con control+r.
+
+### HuffPostEs Accessibility Fixes
+[Descargar HuffPostEs Accessibility Fixes](https://github.com/nvdaes/esAxSGrease/raw/master/HuffPostEsA11yFixes.user.js)
+
+Este script mejora la accesibilidad de [huffingtonpost.es](http://www.huffingtonpost.es).
+
+Hace lo siguiente:
+
+- Proporciona etiquetas a enlaces para suscribirse o compartir contenido en redes sociales.
