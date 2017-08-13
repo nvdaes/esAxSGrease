@@ -1,16 +1,16 @@
-// ==UserScript==
-  
+﻿// ==UserScript==
 // @name        HuffPostEs Accessibility Fixes
 // @namespace   http://nvdaes.github.io/grease
 // @description Improves the accessibility of huffingtonpost.es.
 // @description:es Mejora la accesibilidad de huffingtonpost.es.
 // @include     http://www.huffingtonpost.es/*
-// @version     2017.1
+// @version     2017.2
 // @grant       none
 // @run-at document-idle
 // ==/UserScript== 
 
 ICONS_LABELS = {
+	"icon-Social-HuffPost": "Inicio",
 	"icon-Social_Facebook": "Facebook",
 	"icon-Social_Twitter": "Twitter",
 	"icon-Social_Instagram": "Instagram",
@@ -31,6 +31,9 @@ function init() {
 				prefix = "Compartir en ";
 			}
 			elem.setAttribute("aria-label", prefix+ICONS_LABELS[p]);
+			if (p === "icon-Social_Pinterest") {
+				elem.setAttribute("role", "button");
+			}
 		}
 	}
 }

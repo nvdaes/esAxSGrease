@@ -9,7 +9,6 @@ para mejorar la accesibilidad de varios sitios web.
 
 ## Instalación
 
-
 Antes de que puedas instalar cualquiera de estos scripts, en primer
 lugar debes instalar
 [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
@@ -72,4 +71,5 @@ Este script mejora la accesibilidad de [huffingtonpost.es](http://www.huffington
 
 Hace lo siguiente:
 
-- Proporciona etiquetas a enlaces para suscribirse o compartir contenido en redes sociales.
+- Proporciona etiquetas a elementos (enlaces o botones) para suscribirse o compartir contenido en redes sociales.
+- Identifica el enlace a la página de Inicio.
