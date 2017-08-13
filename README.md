@@ -73,3 +73,5 @@ Hace lo siguiente:
 
 - Proporciona etiquetas a elementos (enlaces o botones) para suscribirse o compartir contenido en redes sociales.
 - Identifica el enlace a la página de Inicio.
+
+<footer><p><a href="https://nvdaes.groups.io/g/esaxsgrease/rss">Canal de noticias del repositorio</a></p></footer>
