@@ -74,4 +74,21 @@ Hace lo siguiente:
 - Proporciona etiquetas a elementos (enlaces o botones) para suscribirse o compartir contenido en redes sociales.
 - Identifica el enlace a la página de Inicio.
 
-<footer><p><a href="https://nvdaes.groups.io/g/esaxsgrease/rss">Canal de noticias del repositorio</a></p></footer>
+### ElPeriodico Accessibility Fixes
+[Descargar ElPeriodico Accessibility Fixes](https://github.com/nvdaes/esAxSGrease/raw/master/ElPeriodicoA11yFixes.user.js)
+
+Este script mejora la accesibilidad de [elperiodico.com](http://www.elperiodico.com).
+
+Hace lo siguiente:
+
+- Indica el estado (contraído o expandido), y añade un acceso de teclado para mostrar u ocultar el menú de navegación.
+- Proporciona etiquetas para identificar el botón de menú y distintos enlaces, como el de Iniciar sesión o los relativos a redes sociales (para compartir cada noticia o seguir la actividad del diario).
+
+<footer>
+<ul>
+<li><a href="https://github.com/nvdaes/esAxSGrease">Proyecto en GitHub</a></li>
+<li><a href="https://nvdaes.groups.io/g/esaxsgrease/rss">Canal de noticias del repositorio</a></li>
+</ul>
+<p>Última actualización: 29 de agosto de 2017</p>
+</footer>
+
