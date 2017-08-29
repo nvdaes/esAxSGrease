@@ -81,7 +81,7 @@ Este script mejora la accesibilidad de [elperiodico.com](http://www.elperiodico.
 
 Hace lo siguiente:
 
-- Indica el estado (contraído o expandido), y añade un acceso de teclado para mostrar u ocultar el menú de navegación.
+- Indica el estado del menú de navegación (contraído o expandido), y añade un acceso de teclado para mostrarlo u ocultarlo (alt+shift+0 en Firefox).
 - Proporciona etiquetas para identificar el botón de menú y distintos enlaces, como el de Iniciar sesión o los relativos a redes sociales (para compartir cada noticia o seguir la actividad del diario).
 
 <footer>
